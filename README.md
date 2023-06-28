@@ -11,7 +11,7 @@ Trivial SiteXML application running in a container.
 
 1. Build the images
 
-```$ docker build -t hello-sitexml .```
+```$ docker build -t sitexmlapp .```
 
 2. Start the container
 
