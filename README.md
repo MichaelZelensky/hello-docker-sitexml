@@ -50,7 +50,7 @@ You might have noticed that as you browse the site by clicking the pages in the 
 ```
 
 ### 3. Add theme
-The site is not using any themes. Actually it does, but only a system one, which is very trivial. You can add a theme to the folder ```.themes```, e.g. ```mytheme.thm```. It can by any text file, for example, HTML, and can use [SiteXML theme macrocommands](https://sitexml.info/api). Link it to the site:
+The site is not using any themes. Actually it does, but only a system one, which is very trivial. You can add a theme to the folder ```.themes```, e.g. ```mytheme.thm```. It can bе any text file, for example, HTML, and can use [SiteXML theme macrocommands](https://sitexml.info/api). Link it to the site:
 
 ```xml
 <site>
