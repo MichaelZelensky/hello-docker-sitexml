@@ -2,7 +2,7 @@
 
 Trivial SiteXML application running in a container.
 
-## How to run
+## Build and run
 
 ### Prerequisites
 - Docker installed and running
