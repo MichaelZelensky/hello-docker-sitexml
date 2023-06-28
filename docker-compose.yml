@@ -1,0 +1,10 @@
+version: "2"
+services:
+  webserver:
+    image: sitexmlapp
+    ports:
+      - "80:80"
+    volumes:
+      - ./app:/var/www/html
+    environment:
+      SITE_URL: http://localhost
