@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><%TITLE%></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="<%THEME_PATH%>css/style.css"/>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="http://sitexml.info/favicon.png"/>
+    <%META%>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115025121-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-115025121-2');
+    </script>
+</head>
+
+<body>
+
+<div class="wrapper">
+    <div id="header">
+        <div id="logo_container">
+            <div id="logo_glow"></div>
+            <div id="logo"></div>
+        </div>
+        <div id="slogan"><a href="/foreword">Extension of<br>
+            the WWW architecture</a></div>
+        <div id="slogan1"><a href="/foreword">Extending the legacy 1980s web of documents <br>
+            to what it really is today &mdash; the web of sites</a></div>
+    </div>
+    <div id="navi">
+        <%NAVI%>
+    </div>
+    <div id="icons">
+        <div id="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8_acSaZxfp0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <!--<div id="icons-container">
+            <div class="thesis">
+                <div class="icon" id="icon-crossSystem"><i class="icon-code"></i></div>
+                <div class="text">Cross-system/<br>platform</div>
+            </div>
+            <div class="thesis">
+                <div class="icon" id="icon-integratedAjaxBrowsing"><i class="icon-users"></i></div>
+                <div class="text">Integrated<br> ajax-browsing,<br> user management<br> and content<br> authoring</div>
+            </div>
+            <div class="thesis">
+                <div class="icon" id="icon-separation"><i class="icon-star-half-alt"></i></div>
+                <div class="text">Data/presentation<br> clear separation</div>
+            </div>
+            <div class="thesis">
+                <div class="icon" id="icon-incorporated"><i class="icon-beaker"></i></div>
+                <div class="text">Can be easily<br> incorporated<br> into browsers,<br> web servers<br> and CMS's</div>
+            </div>
+            <div class="thesis last">
+                <div class="icon" id="icon-editable"><i class="icon-edit"></i></div>
+                <div class="text">Fully editable<br> with any text editor</div>
+            </div>
+        </div>-->
+    </div>
+    <div id="thesis">
+        <div class="sitexml">Site<span>XML</span></div>
+        <div class="thesis-text"><p>SiteXML is an attempt to introduce a site structure standard<br> to unify site components producers' industry efforts (CMS, modules, themes). </p></div>
+        <div class="content">
+            <%CONTENT(thesis)%>
+            <div id="read-more">
+                <p>Read more: <a href="/architecture" plink="4">Architecture</a></p>
+            </div>
+        </div>
+        <div id="download">
+            <a href="https://github.com/MichaelZelensky/SiteXML-PHP">Download SiteXML engine for PHP</a>
+        </div>
+    </div>
+    <div id="example">
+        <div id="example-container"><%CONTENT(example)%></div>
+    </div>
+    <div class="push"></div>
+</div>
+
+<div id="footer" class="bgc3">
+    <div>
+        <%CONTENT(footer)%>
+    </div>
+</div>
+</body>
+</html>

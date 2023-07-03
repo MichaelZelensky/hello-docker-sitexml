@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+    <title><%TITLE%></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="<%THEME_PATH%>css/style.css" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="http://sitexml.info/favicon.png"/>
+    <%META%>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115025121-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-115025121-2');
+    </script>
+</head>
+
+<body class="page">
+
+<div class="wrapper">
+    <div id="page-container">
+        <div id="page-navi">
+            <div id="navi-320-button"><i class="icon-menu"></i></div>
+            <a href="/"><div id="home-button"></div></a>
+            <div id="navi-container"><%NAVI%></div>
+        </div>
+        <div id="page-title" style="display: none"><%TITLE%></div>
+        <div id="page-content">
+            <%CONTENT(main)%>
+        </div>
+    </div>
+    <div class="push"></div>
+</div>
+
+<div id="footer" class="bgc3">
+    <div><div class="right">
+        <span id="poweredby"><%CONTENT(footer_right)%></span>
+    </div>
+        <%CONTENT(footer_left)%>
+        <div id="poweredby-smart"><%CONTENT(footer_right)%></div>
+</div>
+</div>
+<script src="<%THEME_PATH%>js/app.js"></script>
+<script src="<%THEME_PATH%>js/sitexml.js"></script>
+</body>
+</html>

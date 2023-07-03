@@ -1,13 +1,13 @@
 <site>
-    <theme file="page.thm" id="1" dir="byYaroslav" name="byYaroslav">
-        <content name="footer_left" id="9">footer.html</content>
-        <content name="footer_right" id="10">footer.html</content>
-    </theme>
+  <theme file="page.thm" id="1" dir="byYaroslav" name="byYaroslav">
+    <content name="footer_left" id="9">footer1.html</content>
+    <content name="footer_right" id="10">footer2.html</content>
+  </theme>
   <page id="1" name="home">
     <content id="1" name="main">hello.html</content>
   </page>
   <page id="2" name="Page A">
-    <content id="2" name="main">hello.html</content>
+    <content id="2" name="main" alias="page-a">pageA.html</content>
   </page>
   <page id="3" name="Page B">
     <content id="3" name="main">hello.html</content>

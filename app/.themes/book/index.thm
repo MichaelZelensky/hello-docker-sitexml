@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+    <title><%TITLE%></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="<%THEME_PATH%>css/style.css" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="http://sitexml.info/favicon.png"/>
+    <%META%>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115025121-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-115025121-2');
+    </script>
+</head>
+
+<body class="page">
+
+<div class="wrapper">
+    <div id="page-container">
+        <div id="page-navi">
+            <div id="navi-container"><%NAVI%></div>
+        </div>
+        <div id="page-title" style="display: none"><%TITLE%></div>
+        <div id="page-content">
+            <%CONTENT(main)%>
+        </div>
+    </div>
+</div>
+<script src="<%THEME_PATH%>js/js.js"></script>
+</body>
+</html>
