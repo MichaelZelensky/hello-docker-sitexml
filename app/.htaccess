@@ -1,0 +1,3 @@
+# Page alias support
+# Don't forget setting AllowOverride All in your httpd.conf to let it work:
+ErrorDocument 404 /index.php

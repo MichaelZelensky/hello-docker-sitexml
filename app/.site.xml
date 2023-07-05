@@ -6,8 +6,8 @@
   <page id="1" name="home">
     <content id="1" name="main">hello.html</content>
   </page>
-  <page id="2" name="Page A">
-    <content id="2" name="main" alias="page-a">pageA.html</content>
+  <page id="2" name="Page A" alias="page-a">
+    <content id="2" name="main">pageA.html</content>
   </page>
   <page id="3" name="Page B">
     <content id="3" name="main">hello.html</content>
